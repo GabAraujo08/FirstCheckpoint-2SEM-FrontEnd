@@ -1,0 +1,14 @@
+header{
+    background-color: #0E1015;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 80%;
+}
