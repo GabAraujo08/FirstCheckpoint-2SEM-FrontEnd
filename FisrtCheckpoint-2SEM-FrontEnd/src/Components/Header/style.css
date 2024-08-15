@@ -1,3 +1,5 @@
+
+
 header{
     background-color: #0E1015;
     display: flex;
@@ -10,5 +12,35 @@ nav {
     align-items: center;
     justify-content: space-around;
     color: white;
-    width: 80%;
+    width: 85%;
+    padding: 10px;
+}
+
+nav img {
+    width: 120px;
+}
+nav .menu{
+    display: flex;
+    align-items: center;
+}
+nav .menu p{
+    font-family: "Krona One", sans-serif;
+    margin: 0;
+}
+nav .menu i{
+    height: 19.19px;
+}
+nav .menu img{
+    width: 20px;
+}
+nav input {
+    width: 40%;
+    background-color: #1B1D23;
+    /*padding: 16px, 32px, 16px, 32px;*/
+    width: 40%;
+    background-color: #1B1D23;
+    /*padding: 16px, 32px, 16px, 32px;*/
+    border: none;
+    outline: none;
+    color: white;
 }
