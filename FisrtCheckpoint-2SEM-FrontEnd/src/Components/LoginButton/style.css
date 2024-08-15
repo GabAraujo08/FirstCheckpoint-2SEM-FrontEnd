@@ -1,0 +1,10 @@
+button{
+    background-color: #D5224E;
+    border: 0;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    cursor: pointer;
+    height: 34px;
+    width: 140px;
+    border-radius: 5px;
+}

@@ -22,6 +22,8 @@ nav img {
 nav .menu{
     display: flex;
     align-items: center;
+    width: 82px;
+    justify-content: space-between;
 }
 nav .menu p{
     font-family: "Krona One", sans-serif;
@@ -43,4 +45,16 @@ nav input {
     border: none;
     outline: none;
     color: white;
+    height: 34px;
+    border-radius: 4px;
+    padding-left: 32px;
+    font-family: 'Karla', 'sans-serif';
+    background-image: url('../../assets/img/iconSearch.svg');
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position-y: 50%;
+    background-position-x: 5px
+
 }
+
+

@@ -1,5 +1,6 @@
 import imgLogo from '../../assets/img/imgLogo.svg'
 import toggleMenu from '../../assets/img/toggleMenu.svg'
+import LoginButton from '../LoginButton'
 import './style.css'
 
 const Header = () => {
@@ -13,8 +14,8 @@ const Header = () => {
               </i>
               <p>Menu</p>
           </div>
-          <input className="inputBusca" type="search"/>
-          <button className="btnLogin">Login</button>
+          <input placeholder='Search' className="inputBusca" type="search"/>
+          <LoginButton />
         </nav>
         
     </header>
