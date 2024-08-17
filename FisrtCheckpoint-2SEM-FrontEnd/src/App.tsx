@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Header from './Components/Header'
+import Banner from './Components/Banner'
 import './App.css'
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      
+      <Banner/>
     </>
     
 
