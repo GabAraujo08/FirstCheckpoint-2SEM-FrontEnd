@@ -13,7 +13,61 @@ section{
 main section .headerBanner{
     display: flex;
     width: 100%;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    align-items: center;
+    
+}
+
+main section .headerBanner .boxAvaliacoes{
+    width: 40%;
     justify-content: space-between;
-    margin-right: -60px;
-    margin-left: 160px;
+    display: flex;
+    
+    
+}
+
+main section .headerBanner .boxAvaliacoes .suaAvaliacao h1, p{
+    font-size: 16px;
+    
+    
+}
+
+main section .headerBanner .boxAvaliacoes .avaliacaoRatings h1, p{
+    font-size: 16px;
+    
+    
+}
+
+main section .headerBanner .boxAvaliacoes .suaAvaliacao h1, p{
+    font-size: 16px;
+    
+    
+}
+
+main section .headerBanner .boxAvaliacoes .avaliacaoRatings div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+main section .headerBanner .boxAvaliacoes .suaAvaliacao div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+main section .imgsBanner{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+    
+
 }
