@@ -3,7 +3,7 @@ import iconArrow from '../../assets/img/iconArrow.svg'
 
 const Enredo = () => {
   return (
-    <section>
+    <section className='enredo'>
         <div className="tituloSection">
             <img src={iconArrow} alt="" />
             <h1>Enredo</h1>
