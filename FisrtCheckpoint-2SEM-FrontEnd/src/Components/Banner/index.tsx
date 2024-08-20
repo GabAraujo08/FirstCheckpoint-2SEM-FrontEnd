@@ -4,11 +4,12 @@ import iconStarFull from '../../assets/img/IconStarFull.svg'
 import iconStar from '../../assets/img/IconStar.svg'
 import imgBanner1 from '../../assets/img/bannerImg1.svg'
 import imgBanner2 from '../../assets/img/bannerImg2.svg'
+import Enredo from '../Enredo'
 
 const Banner = () => {
   return (
     <main>
-      <section>
+      <section className='banner'>
         <div className='headerBanner'>
           <h1>GOD OF WAR: RAGNAROK</h1>
           <div className="boxAvaliacoes">
@@ -34,6 +35,7 @@ const Banner = () => {
           <img src={imgBanner2} alt="" />
         </div>
       </section>
+      <Enredo/>
     </main>
   );
 }

@@ -1,0 +1,18 @@
+import './style.css'
+import iconArrow from '../../assets/img/iconArrow.svg'
+
+const Enredo = () => {
+  return (
+    <section>
+        <div className="tituloSection">
+            <img src={iconArrow} alt="" />
+            <h1>Enredo</h1>
+        </div>
+        <p>
+        Kratos and his son Atreus face the oncoming Norse apocalypse, Ragnarok.
+        </p>
+    </section>
+  );
+}
+
+export default Enredo
