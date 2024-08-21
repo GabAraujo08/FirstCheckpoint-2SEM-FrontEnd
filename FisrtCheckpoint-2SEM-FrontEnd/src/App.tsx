@@ -10,8 +10,9 @@ function App() {
 
   return (
     <>
-    <main>
+    
       <Header />
+    <main>
       <Banner/>
       <Enredo/>
       <Avaliacoes/>
