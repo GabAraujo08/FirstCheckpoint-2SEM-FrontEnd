@@ -1,0 +1,37 @@
+.avaliacao {
+    background-color: #1c171d;
+    padding: 25px;
+}
+.avaliacaoLinhaUm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+}	
+.avaliacaoLinhaUm > h1{
+    background-color: #D5224E;
+    padding: 10px;
+    border-radius: 8px 4px 24px 8px;
+    margin: 0;
+    font-size: 16px;
+}
+
+.avaliacaoLinhaUm span h1{
+    margin: 0;
+    font-size: 14px;
+    
+}
+
+.avaliacaoLinhaUm span img{
+    width: 18px;
+    
+}
+
+
+.avaliacaoLinhaUm span{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
