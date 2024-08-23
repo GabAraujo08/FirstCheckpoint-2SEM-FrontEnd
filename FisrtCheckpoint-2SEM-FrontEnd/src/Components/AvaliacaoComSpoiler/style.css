@@ -67,8 +67,17 @@
     font-size: 16px;
     margin: 0;
 }
-.textoAvaliacao{
-    color: white;
-    font-family: 'Karla', sans-serif;
-    font-weight: 400;
+
+.spoilerAlert{
+    display: flex;
+    justify-content: space-between;
+    color: #FF003F;
+    font-family: 'Krona One', sans-serif;
+    padding: 10px;
+    background-color: #0E1015;
+    border-radius: 8px;
+}
+.spoilerAlert p{
+    margin: 0;
+    
 }

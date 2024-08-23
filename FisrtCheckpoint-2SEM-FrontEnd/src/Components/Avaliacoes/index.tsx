@@ -2,6 +2,7 @@ import './style.css'
 import iconArrow from '../../assets/img/iconArrow.svg'
 import iconMais from '../../assets/img/iconMais.svg'
 import AvaliacaoSemSpoiler from '../AvaliacaoSemSpoiler';
+import AvaliacaoComSpoiler from '../AvaliacaoComSpoiler';
 
 const Avaliacoes = () => {
     return (
@@ -17,6 +18,7 @@ const Avaliacoes = () => {
                 </div>
             </div>
             <AvaliacaoSemSpoiler />
+            <AvaliacaoComSpoiler/>
         </section>
     );
 }

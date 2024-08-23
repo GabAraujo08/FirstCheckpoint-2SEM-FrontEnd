@@ -1,0 +1,27 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Karla', sans-serif;
+    align-items: center;
+    margin-top: 40px;
+}
+.navigationFooter{
+    display: flex;
+    gap: 25px;
+}
+.navigationFooter .column{
+    display: flex;
+    flex-direction: column;
+}
+.navigationFooter .column a{
+    text-decoration: none;
+    color: white;
+    line-height: 1.5rem;
+}
+
+.column h3{
+    color: #7E8087;
+    margin: 0;
+    
+}
