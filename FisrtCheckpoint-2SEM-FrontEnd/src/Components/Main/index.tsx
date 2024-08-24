@@ -1,5 +1,5 @@
 import './style.css'
-import bannerImg from '../../assets/img/backgroundGow.png'
+
 import iconStarFull from '../../assets/img/IconStarFull.svg'
 import iconStar from '../../assets/img/IconStar.svg'
 import imgBanner1 from '../../assets/img/bannerImg1.svg'

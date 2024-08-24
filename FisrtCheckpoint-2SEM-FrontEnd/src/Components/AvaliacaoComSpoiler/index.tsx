@@ -1,5 +1,4 @@
 
-import React from 'react';
 import btnLike from '../../assets/img/btnLike.svg'
 import btnDeslike from '../../assets/img/btnDeslike.svg'
 import btnOptions from '../../assets/img/btnOptions.svg'
